@@ -37,7 +37,7 @@ data class Property(
             if (keyword.isNotEmpty()) {
                 append(keyword).append(" ")
             }
-            append(type).append(" ").append(name)
+            append(type).append("? ").append(name)
             if (value.isNotBlank()) {
                 append(" = ").append(value)
             }
